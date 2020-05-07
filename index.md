@@ -1,6 +1,3 @@
-## Traffic accidents in the UK 2018
-
-
 ## When is it safe to drive in the UK?
 
 In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
