@@ -10,11 +10,11 @@ In 2018, 122635 accidents were registered at the authorities.
 
 These accidents can be divided into tree categories, with regards to the severity.
 
-_Fatal: 1671 accidents
+_Fatal: 1671 accidents_
 
-_Serious: 23165 accidents
+_Serious: 23165 accidents_
 
-_Slight: 97799 accidents 
+_Slight: 97799 accidents_ 
 
 Firstly, here is a map displaying all accidents in the UK every hour of the day.
 Try to adjust the slider and see if it impacts the number of accidents.
