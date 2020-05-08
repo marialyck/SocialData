@@ -18,6 +18,7 @@ Try to adjust the slider and see if it impacts the number of accidents.
 
 ## place heatmap
 
+
 Are you surprised by the result? 
 
 We see that the distribution of accidents clearly rise when rush hour starts, and the majority of accidents happens in the hours from 6 AM to 6PM.
