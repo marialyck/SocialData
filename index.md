@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# When is it safe to drive in the UK?
 
-You can use the [editor on GitHub](https://github.com/marialyck/SocialData/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
+What factors do you believe has and impact on the day to day safety on the road? 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In 2018, 122635 accidents were registered at the authorities.
 
-### Markdown
+These accidents can be divided into tree categories, with regards to the severity.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+_Fatal: 1671 accidents_
 
-```markdown
-Syntax highlighted code block
+_Serious: 23165 accidents_
 
-# Header 1
-## Header 2
-### Header 3
+_Slight: 97799 accidents_ 
 
-- Bulleted
-- List
+Firstly, here is a map displaying all accidents in the UK every hour of the day.
+Try to adjust the slider and see if it impacts the number of accidents.
 
-1. Numbered
-2. List
+## place heatmap
 
-**Bold** and _Italic_ and `Code` text
+Are you surprised by the result? 
 
-[Link](url) and ![Image](src)
-```
+We see that the distribution of accidents clearly rise when rush hour starts, and the majority of accidents happens in the hours from 6 AM to 6PM.
+Well it makes sense does it not? 
+There is a lot of people in the road at these hours.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Let us dig a little deeper.
 
-### Jekyll Themes
+In these two plots you kan investigate the different severities of accidents over from a entire year, distributed over 24 hours.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marialyck/SocialData/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Place plot of accident severity over 24 hours
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+It can observed that Slight and Serious accidents spike at rush hour, but that Fatal accidents has a more even distribution.
