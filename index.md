@@ -27,7 +27,7 @@ There is a lot of people in the road at these hours.
 
 Let us dig a little deeper.
 
-In these two plots you kan investigate the different severities of accidents over from a entire year, distributed over 24 hours.
+In these two plots you can investigate the different severities of accidents over from a entire year, distributed over 24 hours.
 
 ## Place plot of accident severity over 24 hours
 
