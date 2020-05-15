@@ -24,7 +24,7 @@ Try to adjust the slider and see if it impacts the number of accidents. The hour
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    width="1200"
+    width="1000"
     height="500"
     src="https://severin.edea.dk/SD/heatmap.html">
 </iframe>
@@ -58,7 +58,7 @@ The county with least recorded accidents is Dumfries and Galloway, with only 258
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    width="1000"
+    width="1200"
     height="500"
     src="https://severin.edea.dk/SD/interactive4.html">
 </iframe>
