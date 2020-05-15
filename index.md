@@ -358,3 +358,5 @@ If you experience troubles with the calculations then try our noteebook. (We hav
 So when do all this happen? If we conclude that women are better drivers (Oh this is a dangerous gender based one) the why do the accidents happen? Is it on the way to school, work, someething else?
 
 <img src="https://github.com/marialyck/SocialData/blob/master/ch4.png" alt="https://severin.edea.dk/SD/ch4.png" class="inline"/>
+
+So apparently it is going to work that is the main factor. Can we by that conclude that the women in UK doesn't work? Knowing some few facts about UK (such as a daycare spot cost app. 800 Pounds a month it is not unrealistic that there is a majority of the men working - source is from several british friends) However it is not concluded that women doesn't work and hence the meeen are contributing with all the accidents
