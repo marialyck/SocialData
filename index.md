@@ -55,7 +55,12 @@ The first graph shows the accidents accumulated over a year. It did not come as 
 
 
 So the fatal accidents are shown in the following plot and surprisingly it is not Friday night that the worst accidents happens. It turns out to be Saturday... hmmm. Surprised?
-
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://severin.edea.dk/SD/bas2.png">
+</iframe>
 <img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="https://severin.edea.dk/SD/bas2.png" class="inline"/>
 
 
