@@ -1,8 +1,6 @@
 # When is it safe to drive in the UK?
 
-<video src="https://www.youtube.com/watch?v=Z_CfUWdqcpI" poster="https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif" width="320" height="200" controls preload></video>
-
-[![Youtube video example](https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif)](https://www.youtube.com/watch?v=Z_CfUWdqcpI "The apetiser video")
+[![Youtube video example](https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif = 250x250)](https://www.youtube.com/watch?v=Z_CfUWdqcpI "The apetiser video")
 
 In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
 What factors do you believe has and impact on the day to day safety on the road? 
