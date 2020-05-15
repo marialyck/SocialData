@@ -151,7 +151,7 @@ Lastly you could also just consider going on really slow or really fast?
     title="Inline Frame Example"
     width="1000"
     height="500"
-    src="hhttps://severin.edea.dk/SD/slow.png">
+    src="https://severin.edea.dk/SD/slow.png">
 </iframe>
 
 Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
