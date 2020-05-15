@@ -88,6 +88,10 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 <html><head>
 
 
+
+
+
+
 <!-- Load require.js. Delete this if your page already loads require.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
@@ -328,4 +332,4 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 </body>
 </html>
 
-
+If you experience troubles with the calculations then try our noteebook. (We have had a bit of some troubles with the calculation button on the homepage) 
