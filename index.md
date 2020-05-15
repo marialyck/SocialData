@@ -49,7 +49,7 @@ The first graph shows the accidents accumulated over a year. It did not come as 
 
 [![image](https://github.com/marialyck/SocialData/blob/master/bas1.png)]
 
-So the fatal accidents are shown in the following plot and surprisingly
+So the fatal accidents are shown in the following plot and surprisingly it is not Friday night that the worst accidents happens. It turns out to be Saturday... hmmm. Surprised?
 [![image](https://github.com/marialyck/SocialData/blob/master/bas2.png)]
 
 
@@ -107,11 +107,6 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 </iframe>
 
 <html><head>
-
-
-
-
-
 
 <!-- Load require.js. Delete this if your page already loads require.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
