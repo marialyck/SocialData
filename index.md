@@ -84,3 +84,248 @@ males are responsible for the last 76.65%, that is over double the amount of acc
     height="400"
     src="https://severin.edea.dk/SD/interactive4.html">
 </iframe>
+
+<html><head>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script type="application/vnd.jupyter.widget-state+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "514d9bf210d74a3cb6e407bf6131eba8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f3cc73ca6a044ddba7e8dd1dd802b7e7": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "285fa9322dbd4241bc2783c728e76af8": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Age:",
+                "layout": "IPY_MODEL_514d9bf210d74a3cb6e407bf6131eba8",
+                "max": 101,
+                "min": 15,
+                "style": "IPY_MODEL_f3cc73ca6a044ddba7e8dd1dd802b7e7",
+                "value": 15
+            }
+        },
+        "b0710cbf4f9846989966853c423cfc25": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "287fa7869b99415b960d0de5a1baee7f": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "f3f439ceb4404ba992cf905d78262bc6": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Male",
+                    "Female"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_b0710cbf4f9846989966853c423cfc25",
+                "style": "IPY_MODEL_287fa7869b99415b960d0de5a1baee7f",
+                "tooltips": []
+            }
+        },
+        "5789009bbf664d0a9d8488536288a3fc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f7c30f7a229047baa48acb1aa56267cc": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "6f6bd826e6774b7f8bf6b44d2339ceb7": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Pedal cycle",
+                    "Motorcycle",
+                    "Taxi",
+                    "Car",
+                    "Bus",
+                    "Ridden horse",
+                    "Goods transporter",
+                    "Mobility scooter"
+                ],
+                "button_style": "",
+                "description": "Transport type:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_5789009bbf664d0a9d8488536288a3fc",
+                "style": "IPY_MODEL_f7c30f7a229047baa48acb1aa56267cc",
+                "tooltips": []
+            }
+        },
+        "4ea69d2c7a0944539d7f2883740b28fd": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0b93d09cedf04ab992988ce3ae542c84": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "6d9c7085b9534f8b9f53055aa0ba56db": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Previous accident",
+                    "Road works",
+                    "Parked vehicle",
+                    "Bridge",
+                    "Bollard or refuge",
+                    "Open door of vehicle",
+                    "Center of roundabout",
+                    "Kerb",
+                    "Animal"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_4ea69d2c7a0944539d7f2883740b28fd",
+                "style": "IPY_MODEL_0b93d09cedf04ab992988ce3ae542c84",
+                "tooltips": []
+            }
+        },
+        "0efac6bead9c40bc829f4301545debcc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3737ef7f915a4146a12a6e010cbc5eaa": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "66dfae3edb43411bb7930e79070fecb6": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Calculate",
+                "layout": "IPY_MODEL_0efac6bead9c40bc829f4301545debcc",
+                "style": "IPY_MODEL_3737ef7f915a4146a12a6e010cbc5eaa"
+            }
+        },
+        "9db12bd064ac418fa7932081cbe3e6d3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e4373b3e9f8b480598039fa8c92ab17c": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_9db12bd064ac418fa7932081cbe3e6d3"
+            }
+        }
+    }
+}
+</script>
+</head>
+<body>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "f3f439ceb4404ba992cf905d78262bc6"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "285fa9322dbd4241bc2783c728e76af8"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "6f6bd826e6774b7f8bf6b44d2339ceb7"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "6d9c7085b9534f8b9f53055aa0ba56db"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "66dfae3edb43411bb7930e79070fecb6"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "e4373b3e9f8b480598039fa8c92ab17c"
+}
+</script>
+
+</body>
+</html>
+
+
