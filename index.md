@@ -50,10 +50,7 @@ It can observed that Slight and Serious accidents spike at rush hour, but that F
 
 
 # fun fact:
-{
-  "text": "^\u203f^",
-  "name": "simple smile"
-}
+
 
 Of all the accidents in 2018, 25390 were in London.
 That is 20000 more that any other single county in the UK.
