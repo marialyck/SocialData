@@ -375,3 +375,5 @@ So apparently it is going to work that is the main factor. Can we by that conclu
 For a more secure walk through you will be able to see in our notebook which streetcorneers to avoid. 
 
 Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
+
+#Drive safe
