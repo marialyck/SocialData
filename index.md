@@ -108,6 +108,11 @@ males are responsible for the last 76.65%, that is over double the amount of acc
     src="https://severin.edea.dk/SD/map_14.html">
 </iframe>
 
+:bowtie: 
+
+In britain by all regrestret car accidents in 2018, did you know that only 23.35% of all accidents are coursed with a female behind the sterringwheel. Translated... males are responsible for the last 76.65%, that is over double the amount of accidents as females. This might reject the stereotypical attitude about females and their driving skills. But lets dig a little deeper, to get a better understanding...
+
+:bowtie: 
 <html><head>
 
 <!-- Load require.js. Delete this if your page already loads require.js -->
