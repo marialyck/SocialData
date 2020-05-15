@@ -24,7 +24,7 @@ Let us take a dive into the heatmap and see how it is spread across London:
 
 Try to adjust the slider and see if it impacts the number of accidents.
 
-## place heatmap
+https://severin.edea.dk/SD/heatmap.html
 
 
 Are you surprised by the result? 
