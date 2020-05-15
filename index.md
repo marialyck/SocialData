@@ -32,7 +32,7 @@ Try to adjust the slider and see if it impacts the number of accidents. The hour
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    width="1000"
+    width="1200"
     height="500"
     src="https://severin.edea.dk/SD/heatmap.html">
 </iframe>
