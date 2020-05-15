@@ -7,6 +7,12 @@ But looking to line after line of data trying to wrap your head around what is t
 
 [![Youtube video example](https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif)](https://www.youtube.com/watch?v=Z_CfUWdqcpI "The apetiser video")
 
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://www.youtube.com/watch?v=Z_CfUWdqcpI">
+</iframe>
 
 
 In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
@@ -51,11 +57,11 @@ It can observed that Slight and Serious accidents spike at rush hour, but that F
 
 # fun fact:
 :bowtie: 
-
 Of all the accidents in 2018, 25390 were in London.
 That is 20000 more that any other single county in the UK.
 On a second place comes West midlands with 5490.
 The county with least recorded accidents is Dumfries and Galloway, with only 258 recorded accidents.
+:bowtie: 
 
 
 <iframe id="inlineFrameExample"
@@ -64,3 +70,5 @@ The county with least recorded accidents is Dumfries and Galloway, with only 258
     height="500"
     src="https://severin.edea.dk/SD/interactive4.html">
 </iframe>
+
+
