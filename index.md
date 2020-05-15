@@ -1,3 +1,7 @@
+For explainer notebook please look here:
+
+https://drive.google.com/open?id=1Jpiilh3af5drumnxuNi1sb8GyIvJIGVH
+
 # When is it safe to drive in the UK?
 
 Have you ever wondered what is the safest path from A to B? What places to avoid in the traffic?
