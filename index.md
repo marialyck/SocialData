@@ -51,12 +51,12 @@ In these two plots you can investigate the different severities of accidents ove
 
 The first graph shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Let's dig even a little deeper.
 
-<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="bas1.png" class="inline"/>
+<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="https://severin.edea.dk/SD/bas1.png" class="inline"/>
 
 
 So the fatal accidents are shown in the following plot and surprisingly it is not Friday night that the worst accidents happens. It turns out to be Saturday... hmmm. Surprised?
 
-<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="bas2.png" class="inline"/>
+<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="https://severin.edea.dk/SD/bas2.png" class="inline"/>
 
 
 
@@ -354,3 +354,7 @@ In britain by all regrestret car accidents in 2018, did you know that only 23.35
 </html>
 
 If you experience troubles with the calculations then try our noteebook. (We have had a bit of some troubles with the calculation button on the homepage) 
+
+So when do all this happen? If we conclude that women are better drivers (Oh this is a dangerous gender based one) the why do the accidents happen? Is it on the way to school, work, someething else?
+
+<img src="https://github.com/marialyck/SocialData/blob/master/ch4.png" alt="https://severin.edea.dk/SD/ch4.png" class="inline"/>
