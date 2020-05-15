@@ -22,7 +22,7 @@ _Slight: 97799 accidents_
 
 Let us take a dive into the heatmap and see how it is spread across London:
 
-Try to adjust the slider and see if it impacts the number of accidents.
+Try to adjust the slider and see if it impacts the number of accidents. The hours are just an overall average of how accidents are in UK. However let's have a fokus on London. It seems like this is here the heat is on. 
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
@@ -34,8 +34,10 @@ Try to adjust the slider and see if it impacts the number of accidents.
 Are you surprised by the result? 
 
 We see that the distribution of accidents clearly rise when rush hour starts, and the majority of accidents happens in the hours from 6 AM to 6PM.
+
 Well it makes sense does it not? 
-There is a lot of people in the road at these hours.
+
+There is a lot of people on the road at these hours. Or at least our logic tells us that's the case.
 
 Let us dig a little deeper.
 
