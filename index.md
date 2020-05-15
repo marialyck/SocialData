@@ -1,6 +1,7 @@
 # When is it safe to drive in the UK?
 
-Have you ever wondered what is the safest path from A to B? What places to avoid in the traffic? ### So have we. 
+Have you ever wondered what is the safest path from A to B? What places to avoid in the traffic?
+### So have we. 
 
 But looking to line after line of data trying to wrap your head around what is the safest path can be a struggle. Hopefully you will bee abl to get a better idea of that afteer reading this article. With interactive plots you will b ablee to visualise through the roadsafety. 
 
