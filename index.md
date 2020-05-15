@@ -371,8 +371,16 @@ So when do all this happen? If we conclude that women are better drivers (Oh thi
 
 So apparently it is going to work that is the main factor. Can we by that conclude that the women in UK doesn't work? Knowing some few facts about UK (such as a daycare spot cost app. 800 Pounds a month it is not unrealistic that there is a majority of the men working - source is from several british friends) However it is not concluded that women doesn't work and hence the men are contributing with all the accidents
 
-
 For a more secure walk through you will be able to see in our notebook which streetcorneers to avoid. 
+
+Lastly you could also just consider going on really slow
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="hhttps://severin.edea.dk/SD/slow.pngg">
+</iframe>
 
 Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
 
