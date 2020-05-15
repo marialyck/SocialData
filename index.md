@@ -41,3 +41,11 @@ In these two plots you can investigate the different severities of accidents ove
 
 
 It can observed that Slight and Serious accidents spike at rush hour, but that Fatal accidents has a more even distribution.
+
+
+# fun fact:
+:bowtie:
+Of all the accidents in 2018, 25390 were in London.
+That is 20000 more that any other single county in the UK.
+On a second place comes West midlands with 5490.
+The county with least recorded accidents is Dumfries and Galloway, with only 258 recorded accidents.
