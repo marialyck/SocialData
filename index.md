@@ -12,9 +12,7 @@ But looking to line after line of data trying to wrap your head around what is t
 In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
 What factors do you believe has and impact on the day to day safety on the road? 
 
-In 2018, 122635 accidents were registered at the authorities.
-
-These accidents can be divided into tree categories, with regards to the severity.
+In 2018, 122635 accidents were registered at the authorities. Looking a bit closer these accidents can be divided into three categories, with regards to the severity.
 
 _Fatal: 1671 accidents_
 
@@ -22,7 +20,8 @@ _Serious: 23165 accidents_
 
 _Slight: 97799 accidents_ 
 
-Firstly, here is a map displaying all accidents in the UK every hour of the day.
+Let us take a dive into the heatmap and see how it is spread across London:
+
 Try to adjust the slider and see if it impacts the number of accidents.
 
 ## place heatmap
