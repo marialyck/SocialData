@@ -1,5 +1,6 @@
 # When is it safe to drive in the UK?
 
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 ![Watch the intro video](https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif | width=200))(https://www.youtube.com/watch?v=Z_CfUWdqcpI)
 
