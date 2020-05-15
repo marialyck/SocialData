@@ -50,9 +50,12 @@ Let us dig a little deeper.
 In these two plots you can investigate the different severities of accidents over from a entire year, distributed over 24 hours.
 
 The first graph shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Let's dig even a little deeper.
-
-<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="https://severin.edea.dk/SD/bas1.png" class="inline"/>
-
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://severin.edea.dk/SD/bas1.png">
+</iframe>
 
 So the fatal accidents are shown in the following plot and surprisingly it is not Friday night that the worst accidents happens. It turns out to be Saturday... hmmm. Surprised?
 <iframe id="inlineFrameExample"
@@ -61,9 +64,6 @@ So the fatal accidents are shown in the following plot and surprisingly it is no
     height="500"
     src="https://severin.edea.dk/SD/bas2.png">
 </iframe>
-<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="https://severin.edea.dk/SD/bas2.png" class="inline"/>
-
-
 
 
 # fun fact:
@@ -361,7 +361,17 @@ In britain by all regrestret car accidents in 2018, did you know that only 23.35
 If you experience troubles with the calculations then try our noteebook. (We have had a bit of some troubles with the calculation button on the homepage) 
 
 So when do all this happen? If we conclude that women are better drivers (Oh this is a dangerous gender based one) the why do the accidents happen? Is it on the way to school, work, someething else?
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="hhttps://severin.edea.dk/SD/ch4.pngg">
+</iframe>
 
-<img src="https://github.com/marialyck/SocialData/blob/master/ch4.png" alt="https://severin.edea.dk/SD/ch4.png" class="inline"/>
 
-So apparently it is going to work that is the main factor. Can we by that conclude that the women in UK doesn't work? Knowing some few facts about UK (such as a daycare spot cost app. 800 Pounds a month it is not unrealistic that there is a majority of the men working - source is from several british friends) However it is not concluded that women doesn't work and hence the meeen are contributing with all the accidents
+So apparently it is going to work that is the main factor. Can we by that conclude that the women in UK doesn't work? Knowing some few facts about UK (such as a daycare spot cost app. 800 Pounds a month it is not unrealistic that there is a majority of the men working - source is from several british friends) However it is not concluded that women doesn't work and hence the men are contributing with all the accidents
+
+
+For a more secure walk through you will be able to see in our notebook which streetcorneers to avoid. 
+
+Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
