@@ -26,8 +26,8 @@ Try to adjust the slider and see if it impacts the number of accidents.
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    width="300"
-    height="200"
+    width="1000"
+    height="500"
     src="https://severin.edea.dk/SD/heatmap.html">
 </iframe>
 
