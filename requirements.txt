@@ -8,3 +8,15 @@ import nbinteract as nbi
 
 from h3 import h3
 from folium import Map
+
+import os
+from bokeh.plotting import output_notebook
+import math
+from skimage import exposure
+import holoviews as hv
+hv.extension('bokeh')
+from functools import partial
+from bokeh.plotting import figure
+from datashader.utils import lnglat_to_meters as webm
+from datashader.utils import export_image
+from datashader.colors import colormap_select
