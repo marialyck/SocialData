@@ -116,7 +116,7 @@ See that is not a surprise. Then one can think that this is because men tend to 
 In britain by all regrestret car accidents in 2018, did you know that only 23.35% of all accidents are coursed with a female behind the sterringwheel. Translated... males are responsible for the last 76.65%, that is over double the amount of accidents as females. This might reject the stereotypical attitude about females and their driving skills. But lets dig a little deeper, to get a better understanding...
 
 :bowtie: 
-<html><head>
+
 
 <!-- Load require.js. Delete this if your page already loads require.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
@@ -373,7 +373,7 @@ So apparently it is going to work that is the main factor. Can we by that conclu
 
 For a more secure walk through you will be able to see in our notebook which streetcorneers to avoid. 
 
-Lastly you could also just consider going on really slow
+Lastly you could also just consider going on really slow or really fast?
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
