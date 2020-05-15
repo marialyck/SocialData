@@ -47,10 +47,10 @@ In these two plots you can investigate the different severities of accidents ove
 
 The first graph shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Let's dig even a little deeper.
 
-![image](https://github.com/marialyck/SocialData/blob/master/bas1.png)
+[![image](https://github.com/marialyck/SocialData/blob/master/bas1.png)]
 
 So the fatal accidents are shown in the following plot and surprisingly
-![image](https://github.com/marialyck/SocialData/bas2.png)
+[![image](https://github.com/marialyck/SocialData/blob/master/bas2.png)]
 
 
 
@@ -71,7 +71,7 @@ The county with least recorded accidents is Dumfries and Galloway, with only 258
 
 :bowtie: 
 
-![image](https://github.com/marialyck/SocialData/bas1.png)
+
 
 
 
@@ -87,7 +87,7 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 
 :bowtie: 
 
-![image](https://github.com/marialyck/SocialData/master/bas3.png)
+[![image](https://github.com/marialyck/SocialData/blob/master/bas3.png)]
 
 
 <iframe id="inlineFrameExample"
