@@ -418,3 +418,646 @@ Lastly you could also just consider going on really slow or really fast?
 Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
 
 # Drive safe
+
+<html><head>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script type="application/vnd.jupyter.widget-state+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "da6db2c79858481389b75418f85b01af": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1925e19e0ef54b3faf2b8354f08d1bfd": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4fc87ab0cf2f45e3addda616832718dc": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Age:",
+                "layout": "IPY_MODEL_da6db2c79858481389b75418f85b01af",
+                "max": 101,
+                "min": 15,
+                "style": "IPY_MODEL_1925e19e0ef54b3faf2b8354f08d1bfd",
+                "value": 15
+            }
+        },
+        "1be2773f06354044ad700c3d9a0eabc2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0ceec4f737f544dc9bd7caafaddf623f": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "860f5d8870f04ce58b3e5976cd9ee9e8": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Male",
+                    "Female"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_1be2773f06354044ad700c3d9a0eabc2",
+                "style": "IPY_MODEL_0ceec4f737f544dc9bd7caafaddf623f",
+                "tooltips": []
+            }
+        },
+        "99f2d39d014a46cdae5b53bc27192da3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "aacb6ea1063441c485302fc077c7e728": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "e2b0c0a85252422a9a24bfc083f16214": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Pedal cycle",
+                    "Motorcycle",
+                    "Taxi",
+                    "Car",
+                    "Bus",
+                    "Ridden horse",
+                    "Goods transporter",
+                    "Mobility scooter"
+                ],
+                "button_style": "",
+                "description": "Transport type:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_99f2d39d014a46cdae5b53bc27192da3",
+                "style": "IPY_MODEL_aacb6ea1063441c485302fc077c7e728",
+                "tooltips": []
+            }
+        },
+        "f76c2cbf3424493da78768cf90993b37": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "927a479c968048849f65ff4233948084": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "87e3722bb5024d2d82e46b2e5ba40de4": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Previous accident",
+                    "Road works",
+                    "Parked vehicle",
+                    "Bridge",
+                    "Bollard or refuge",
+                    "Open door of vehicle",
+                    "Center of roundabout",
+                    "Kerb",
+                    "Animal"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 1,
+                "layout": "IPY_MODEL_f76c2cbf3424493da78768cf90993b37",
+                "style": "IPY_MODEL_927a479c968048849f65ff4233948084",
+                "tooltips": []
+            }
+        },
+        "aeccec9fa41f4ee9942563ee86cac0a4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7ffd362d3f7a460a9013e5e9b2b01ec5": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "8c55868dfd164456929f188862dae2ec": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Calculate",
+                "layout": "IPY_MODEL_aeccec9fa41f4ee9942563ee86cac0a4",
+                "style": "IPY_MODEL_7ffd362d3f7a460a9013e5e9b2b01ec5"
+            }
+        },
+        "2072e731b51c450e832d197867a7ca6d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "318e99592eae46f6806214fdc46e45f9": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_2072e731b51c450e832d197867a7ca6d",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "NotFittedError",
+                        "evalue": "This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mNotFittedError\u001b[0m                            Traceback (most recent call last)",
+                            "\u001b[0;32m<ipython-input-26-83befdc64328>\u001b[0m in \u001b[0;36mon_button_clicked\u001b[0;34m(b)\u001b[0m\n\u001b[1;32m     67\u001b[0m     \u001b[0;32mwith\u001b[0m \u001b[0moutput\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     68\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 69\u001b[0;31m         \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredictSeverity\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhitobject\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mage\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mgender\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     70\u001b[0m         \u001b[0mpercentage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresult\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m100\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     71\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"{:.2f}\"\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpercentage\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-25-336dac09e3cb>\u001b[0m in \u001b[0;36mpredictSeverity\u001b[0;34m(h, a, v, g)\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;31m#The dicts from before will now be used.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mpredictSeverity\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m     \u001b[0mpredict\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0maccidentModel\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpredict_proba\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m     \u001b[0mmessage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredict\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmessage\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/_forest.py\u001b[0m in \u001b[0;36mpredict_proba\u001b[0;34m(self, X)\u001b[0m\n\u001b[1;32m    669\u001b[0m             \u001b[0mclasses\u001b[0m \u001b[0mcorresponds\u001b[0m \u001b[0mto\u001b[0m \u001b[0mthat\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mthe\u001b[0m \u001b[0mattribute\u001b[0m \u001b[0;34m:\u001b[0m\u001b[0mterm\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0mclasses_\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    670\u001b[0m         \"\"\"\n\u001b[0;32m--> 671\u001b[0;31m         \u001b[0mcheck_is_fitted\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    672\u001b[0m         \u001b[0;31m# Check data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    673\u001b[0m         \u001b[0mX\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_validate_X_predict\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36minner_f\u001b[0;34m(*args, **kwargs)\u001b[0m\n\u001b[1;32m     71\u001b[0m                           FutureWarning)\n\u001b[1;32m     72\u001b[0m         \u001b[0mkwargs\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mupdate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m{\u001b[0m\u001b[0mk\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mk\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mzip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msig\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mparameters\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 73\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     74\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0minner_f\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     75\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36mcheck_is_fitted\u001b[0;34m(estimator, attributes, msg, all_or_any)\u001b[0m\n\u001b[1;32m   1018\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1019\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0mattrs\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1020\u001b[0;31m         \u001b[0;32mraise\u001b[0m \u001b[0mNotFittedError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmsg\u001b[0m \u001b[0;34m%\u001b[0m \u001b[0;34m{\u001b[0m\u001b[0;34m'name'\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mestimator\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1021\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1022\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mNotFittedError\u001b[0m: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator."
+                        ]
+                    },
+                    {
+                        "output_type": "error",
+                        "ename": "NotFittedError",
+                        "evalue": "This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mNotFittedError\u001b[0m                            Traceback (most recent call last)",
+                            "\u001b[0;32m<ipython-input-26-83befdc64328>\u001b[0m in \u001b[0;36mon_button_clicked\u001b[0;34m(b)\u001b[0m\n\u001b[1;32m     67\u001b[0m     \u001b[0;32mwith\u001b[0m \u001b[0moutput\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     68\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 69\u001b[0;31m         \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredictSeverity\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhitobject\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mage\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mgender\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     70\u001b[0m         \u001b[0mpercentage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresult\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m100\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     71\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"{:.2f}\"\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpercentage\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-25-336dac09e3cb>\u001b[0m in \u001b[0;36mpredictSeverity\u001b[0;34m(h, a, v, g)\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;31m#The dicts from before will now be used.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mpredictSeverity\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m     \u001b[0mpredict\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0maccidentModel\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpredict_proba\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m     \u001b[0mmessage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredict\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmessage\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/_forest.py\u001b[0m in \u001b[0;36mpredict_proba\u001b[0;34m(self, X)\u001b[0m\n\u001b[1;32m    669\u001b[0m             \u001b[0mclasses\u001b[0m \u001b[0mcorresponds\u001b[0m \u001b[0mto\u001b[0m \u001b[0mthat\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mthe\u001b[0m \u001b[0mattribute\u001b[0m \u001b[0;34m:\u001b[0m\u001b[0mterm\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0mclasses_\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    670\u001b[0m         \"\"\"\n\u001b[0;32m--> 671\u001b[0;31m         \u001b[0mcheck_is_fitted\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    672\u001b[0m         \u001b[0;31m# Check data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    673\u001b[0m         \u001b[0mX\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_validate_X_predict\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36minner_f\u001b[0;34m(*args, **kwargs)\u001b[0m\n\u001b[1;32m     71\u001b[0m                           FutureWarning)\n\u001b[1;32m     72\u001b[0m         \u001b[0mkwargs\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mupdate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m{\u001b[0m\u001b[0mk\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mk\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mzip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msig\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mparameters\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 73\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     74\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0minner_f\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     75\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36mcheck_is_fitted\u001b[0;34m(estimator, attributes, msg, all_or_any)\u001b[0m\n\u001b[1;32m   1018\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1019\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0mattrs\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1020\u001b[0;31m         \u001b[0;32mraise\u001b[0m \u001b[0mNotFittedError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmsg\u001b[0m \u001b[0;34m%\u001b[0m \u001b[0;34m{\u001b[0m\u001b[0;34m'name'\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mestimator\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1021\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1022\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mNotFittedError\u001b[0m: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator."
+                        ]
+                    }
+                ]
+            }
+        },
+        "f6c8cb900d6b40549be7314dff5885f1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7db7af7e45ee465ca86704a8db52e034": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "319cab7405e64afaaecaead1a6b71291": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Age:",
+                "layout": "IPY_MODEL_f6c8cb900d6b40549be7314dff5885f1",
+                "max": 101,
+                "min": 15,
+                "style": "IPY_MODEL_7db7af7e45ee465ca86704a8db52e034",
+                "value": 15
+            }
+        },
+        "5abfb0a5104343e980cd1ee2e1225338": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3ac14b34c5324c83ab735ffd5fae9fe7": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "d5967f9b1abe45dca25596cb42314247": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Male",
+                    "Female"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_5abfb0a5104343e980cd1ee2e1225338",
+                "style": "IPY_MODEL_3ac14b34c5324c83ab735ffd5fae9fe7",
+                "tooltips": []
+            }
+        },
+        "a04c9f5b73e545758220d685bb6b6d94": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8fe4aa20c44e49eab72f92697f6b6b43": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "e2155677bbe84b3199eb67381ebfea9f": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Pedal cycle",
+                    "Motorcycle",
+                    "Taxi",
+                    "Car",
+                    "Bus",
+                    "Ridden horse",
+                    "Goods transporter",
+                    "Mobility scooter"
+                ],
+                "button_style": "",
+                "description": "Transport type:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_a04c9f5b73e545758220d685bb6b6d94",
+                "style": "IPY_MODEL_8fe4aa20c44e49eab72f92697f6b6b43",
+                "tooltips": []
+            }
+        },
+        "5007a24afa5f483783c13038423ce76b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e613a2237f4446cfb2542a113e811094": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "e1fb5c7c64024e8e89c5b5c570555424": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Previous accident",
+                    "Road works",
+                    "Parked vehicle",
+                    "Bridge",
+                    "Bollard or refuge",
+                    "Open door of vehicle",
+                    "Center of roundabout",
+                    "Kerb",
+                    "Animal"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_5007a24afa5f483783c13038423ce76b",
+                "style": "IPY_MODEL_e613a2237f4446cfb2542a113e811094",
+                "tooltips": []
+            }
+        },
+        "2017306f6a7f4e70b75ffadffc35fa4b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "95c51e7025324a828704ff594ee2d5fb": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "3c2ec8fa080d47d6ae940c238c8af4f4": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Calculate",
+                "layout": "IPY_MODEL_2017306f6a7f4e70b75ffadffc35fa4b",
+                "style": "IPY_MODEL_95c51e7025324a828704ff594ee2d5fb"
+            }
+        },
+        "63e6845dfe3c4fd0869df1976ef0b75b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "df9f103bb25f4078be4546359625b240": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_63e6845dfe3c4fd0869df1976ef0b75b",
+                "outputs": [
+                    {
+                        "output_type": "error",
+                        "ename": "NotFittedError",
+                        "evalue": "This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.",
+                        "traceback": [
+                            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+                            "\u001b[0;31mNotFittedError\u001b[0m                            Traceback (most recent call last)",
+                            "\u001b[0;32m<ipython-input-42-83befdc64328>\u001b[0m in \u001b[0;36mon_button_clicked\u001b[0;34m(b)\u001b[0m\n\u001b[1;32m     67\u001b[0m     \u001b[0;32mwith\u001b[0m \u001b[0moutput\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     68\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 69\u001b[0;31m         \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredictSeverity\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhitobject\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mage\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcar\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mgender\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     70\u001b[0m         \u001b[0mpercentage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresult\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m100\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     71\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"{:.2f}\"\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mformat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpercentage\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m<ipython-input-41-336dac09e3cb>\u001b[0m in \u001b[0;36mpredictSeverity\u001b[0;34m(h, a, v, g)\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;31m#The dicts from before will now be used.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mpredictSeverity\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m     \u001b[0mpredict\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0maccidentModel\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpredict_proba\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mh\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mv\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mg\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m     \u001b[0mmessage\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpredict\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0mmessage\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/ensemble/_forest.py\u001b[0m in \u001b[0;36mpredict_proba\u001b[0;34m(self, X)\u001b[0m\n\u001b[1;32m    669\u001b[0m             \u001b[0mclasses\u001b[0m \u001b[0mcorresponds\u001b[0m \u001b[0mto\u001b[0m \u001b[0mthat\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mthe\u001b[0m \u001b[0mattribute\u001b[0m \u001b[0;34m:\u001b[0m\u001b[0mterm\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0mclasses_\u001b[0m\u001b[0;31m`\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    670\u001b[0m         \"\"\"\n\u001b[0;32m--> 671\u001b[0;31m         \u001b[0mcheck_is_fitted\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    672\u001b[0m         \u001b[0;31m# Check data\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    673\u001b[0m         \u001b[0mX\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_validate_X_predict\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36minner_f\u001b[0;34m(*args, **kwargs)\u001b[0m\n\u001b[1;32m     71\u001b[0m                           FutureWarning)\n\u001b[1;32m     72\u001b[0m         \u001b[0mkwargs\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mupdate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m{\u001b[0m\u001b[0mk\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mk\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0marg\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mzip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msig\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mparameters\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 73\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mkwargs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     74\u001b[0m     \u001b[0;32mreturn\u001b[0m \u001b[0minner_f\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     75\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;32m~/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py\u001b[0m in \u001b[0;36mcheck_is_fitted\u001b[0;34m(estimator, attributes, msg, all_or_any)\u001b[0m\n\u001b[1;32m   1018\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1019\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0mattrs\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1020\u001b[0;31m         \u001b[0;32mraise\u001b[0m \u001b[0mNotFittedError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmsg\u001b[0m \u001b[0;34m%\u001b[0m \u001b[0;34m{\u001b[0m\u001b[0;34m'name'\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mestimator\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__name__\u001b[0m\u001b[0;34m}\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1021\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1022\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+                            "\u001b[0;31mNotFittedError\u001b[0m: This RandomForestClassifier instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator."
+                        ]
+                    }
+                ]
+            }
+        },
+        "228d18d6b8bb4cc49d2d9cdf888f91f8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e5a87015bc874fb195eae2247906c2e3": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e2de653007b646e0b548f25cee461c72": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Age:",
+                "layout": "IPY_MODEL_228d18d6b8bb4cc49d2d9cdf888f91f8",
+                "max": 101,
+                "min": 15,
+                "style": "IPY_MODEL_e5a87015bc874fb195eae2247906c2e3",
+                "value": 15
+            }
+        },
+        "f0a34a74b13346328aa1006e3790ddf1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "09f88fe755094509b4b9da9f8b911e91": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "baa908c0e3f0427baaab91e1605f73c0": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Male",
+                    "Female"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_f0a34a74b13346328aa1006e3790ddf1",
+                "style": "IPY_MODEL_09f88fe755094509b4b9da9f8b911e91",
+                "tooltips": []
+            }
+        },
+        "db392a74ec294637a604780c1cffa555": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "60d4c8e8c36747a9a7f0f94d588042f2": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "64f1d7821b174c5fa1b7116eb6f7d0c3": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Pedal cycle",
+                    "Motorcycle",
+                    "Taxi",
+                    "Car",
+                    "Bus",
+                    "Ridden horse",
+                    "Goods transporter",
+                    "Mobility scooter"
+                ],
+                "button_style": "",
+                "description": "Transport type:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_db392a74ec294637a604780c1cffa555",
+                "style": "IPY_MODEL_60d4c8e8c36747a9a7f0f94d588042f2",
+                "tooltips": []
+            }
+        },
+        "f05001802c6545f1b402cc7b9d6a3800": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6ef392138f62471488826d09767c5921": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "80a6f6553d37445b86bdb370ee732d4f": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Previous accident",
+                    "Road works",
+                    "Parked vehicle",
+                    "Bridge",
+                    "Bollard or refuge",
+                    "Open door of vehicle",
+                    "Center of roundabout",
+                    "Kerb",
+                    "Animal"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_f05001802c6545f1b402cc7b9d6a3800",
+                "style": "IPY_MODEL_6ef392138f62471488826d09767c5921",
+                "tooltips": []
+            }
+        },
+        "3d94a35724a54287b37717fd26694acc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bd2091e67b0e414eb197f8c62507784b": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "fd1491ebd3d140fc85560eb5edc6e636": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Calculate",
+                "layout": "IPY_MODEL_3d94a35724a54287b37717fd26694acc",
+                "style": "IPY_MODEL_bd2091e67b0e414eb197f8c62507784b"
+            }
+        },
+        "5cfc9ec809b84e1bb636911d856d5931": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e22f4b9642574384b316de666fa2efe0": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_5cfc9ec809b84e1bb636911d856d5931"
+            }
+        }
+    }
+}
+</script>
+</head>
+<body>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "baa908c0e3f0427baaab91e1605f73c0"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "e2de653007b646e0b548f25cee461c72"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "64f1d7821b174c5fa1b7116eb6f7d0c3"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "80a6f6553d37445b86bdb370ee732d4f"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "fd1491ebd3d140fc85560eb5edc6e636"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "e22f4b9642574384b316de666fa2efe0"
+}
+</script>
+
+</body>
+</html>
+
