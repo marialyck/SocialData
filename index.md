@@ -59,9 +59,9 @@ On a second place comes West midlands with 5490.
 The county with least recorded accidents is Dumfries and Galloway, with only 258 recorded accidents.
 
 :bowtie: 
+![image](https://github.com/marialyck/SocialData/master/bas1.png)
 
-
-
+![image](https://github.com/marialyck/SocialData/master/bas2.png)
 
 
 
@@ -75,7 +75,7 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 
 :bowtie: 
 
-![image](https://github.com/marialyck/SocialData/blob/master/bas3.png)
+![image](https://github.com/marialyck/SocialData/master/bas3.png)
 
 
 <iframe id="inlineFrameExample"
