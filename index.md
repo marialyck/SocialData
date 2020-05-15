@@ -75,7 +75,7 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 
 :bowtie: 
 
-
+![image](https://github.com/marialyck/SocialData/blob/master/bas3.png)
 
 
 <iframe id="inlineFrameExample"
