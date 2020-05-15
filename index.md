@@ -41,7 +41,11 @@ Let us dig a little deeper.
 
 In these two plots you can investigate the different severities of accidents over from a entire year, distributed over 24 hours.
 
-## Place plot of accident severity over 24 hours
+![image](https://github.com/marialyck/SocialData/master/bas1.png)
+
+![image](https://github.com/marialyck/SocialData/master/bas2.png)
+
+Looking at the two plots 
 
 
 It can observed that Slight and Serious accidents spike at rush hour, but that Fatal accidents has a more even distribution.
@@ -59,10 +63,13 @@ On a second place comes West midlands with 5490.
 The county with least recorded accidents is Dumfries and Galloway, with only 258 recorded accidents.
 
 :bowtie: 
+
 ![image](https://github.com/marialyck/SocialData/master/bas1.png)
 
-![image](https://github.com/marialyck/SocialData/master/bas2.png)
+The graphs shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Letøs dig a little deeper.
 
+
+![image](https://github.com/marialyck/SocialData/master/bas2.png)
 
 
 
