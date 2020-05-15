@@ -37,18 +37,25 @@ Well it makes sense does it not?
 
 There is a lot of people on the road at these hours. Or at least our logic tells us that's the case.
 
+It can observed that Slight and Serious accidents spike at rush hour, but that Fatal accidents has a more even distribution.
+
+
+
 Let us dig a little deeper.
 
 In these two plots you can investigate the different severities of accidents over from a entire year, distributed over 24 hours.
 
-![image](https://github.com/marialyck/SocialData/master/bas1.png)
+The first graph shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Let's dig even a little deeper.
 
-![image](https://github.com/marialyck/SocialData/master/bas2.png)
+![image](https://github.com/marialyck/SocialData/bas1.png)
 
-Looking at the two plots 
+So the fatal accidents are shown in the following plot and surprisingly
+![image](https://github.com/marialyck/SocialData/bas2.png)
 
 
-It can observed that Slight and Serious accidents spike at rush hour, but that Fatal accidents has a more even distribution.
+
+
+
 
 
 # fun fact:
@@ -64,12 +71,10 @@ The county with least recorded accidents is Dumfries and Galloway, with only 258
 
 :bowtie: 
 
-![image](https://github.com/marialyck/SocialData/master/bas1.png)
-
-The graphs shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Letøs dig a little deeper.
+![image](https://github.com/marialyck/SocialData/bas1.png)
 
 
-![image](https://github.com/marialyck/SocialData/master/bas2.png)
+
 
 
 
@@ -90,6 +95,15 @@ males are responsible for the last 76.65%, that is over double the amount of acc
     width="1200"
     height="400"
     src="https://severin.edea.dk/SD/interactive4.html">
+</iframe>
+
+
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://severin.edea.dk/SD/map_14.html">
 </iframe>
 
 <html><head>
