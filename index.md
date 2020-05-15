@@ -56,3 +56,11 @@ Of all the accidents in 2018, 25390 were in London.
 That is 20000 more that any other single county in the UK.
 On a second place comes West midlands with 5490.
 The county with least recorded accidents is Dumfries and Galloway, with only 258 recorded accidents.
+
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://severin.edea.dk/SD/interactive4.html">
+</iframe>
