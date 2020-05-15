@@ -23,10 +23,13 @@ _Slight: 97799 accidents_
 Let us take a dive into the heatmap and see how it is spread across London:
 
 Try to adjust the slider and see if it impacts the number of accidents.
-<iframe src="https://severin.edea.dk/SD/heatmap.html" width="100%" height="300" style="border:none;">
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://severin.edea.dk/SD/heatmap.html">
 </iframe>
-
-
 
 Are you surprised by the result? 
 
