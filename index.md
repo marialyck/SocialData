@@ -47,7 +47,7 @@ In these two plots you can investigate the different severities of accidents ove
 
 The first graph shows the accidents accumulated over a year. It did not come as a major surprise that Friday has a higher part of accidents. The bars are open and people don't work Saturday, but of course that is an assumptiom. Let's dig even a little deeper.
 
-<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="hi" class="inline"/>
+<img src="https://github.com/marialyck/SocialData/blob/master/bas1.png" alt="Alt" class="inline"/>
 
 [![image](https://github.com/marialyck/SocialData/blob/master/bas1.png)]
 
