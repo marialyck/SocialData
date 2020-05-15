@@ -7,14 +7,6 @@ But looking to line after line of data trying to wrap your head around what is t
 
 [![Youtube video example](https://media.giphy.com/media/OH2rL6DVTNpte/giphy.gif)](https://www.youtube.com/watch?v=Z_CfUWdqcpI "The apetiser video")
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="1000"
-    height="500"
-    src="https://www.youtube.com/watch?v=Z_CfUWdqcpI">
-</iframe>
-
-
 In this article, you will have the opportunity to investigate, if you drive at a safe time and distance.
 What factors do you believe has and impact on the day to day safety on the road? 
 
