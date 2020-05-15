@@ -61,8 +61,6 @@ So the fatal accidents are shown in the following plot and surprisingly it is no
 
 
 
-
-
 # fun fact:
 :bowtie: 
 
@@ -76,11 +74,15 @@ The county with least recorded accidents is Dumfries and Galloway, with only 258
 
 :bowtie: 
 
+Have a look at our map
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="1000"
+    height="500"
+    src="https://severin.edea.dk/SD/map_14.html">
+</iframe>
 
-
-
-
-
+It clusters the accidents and show where the accidents have happened. 
 
 
 :bowtie: 
@@ -92,8 +94,7 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 
 :bowtie: 
 
-[![image](https://github.com/marialyck/SocialData/blob/master/bas3.png)]
-
+See that is not a surprise. Then one can think that this is because men tend to drive wilder than women or that looking inside cars passing by one might notice that most of the time the men are behind the wheels. This is not something we are going to conclude on. We will leave that up to you...
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
@@ -104,12 +105,6 @@ males are responsible for the last 76.65%, that is over double the amount of acc
 
 
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="1000"
-    height="500"
-    src="https://severin.edea.dk/SD/map_14.html">
-</iframe>
 
 :bowtie: 
 
