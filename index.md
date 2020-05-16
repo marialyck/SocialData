@@ -1,7 +1,7 @@
 For explainer notebook please look here:
 
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://drive.google.com/open?id=1Jpiilh3af5drumnxuNi1sb8GyIvJIGVH" data-icon="octicon-heart" aria-label="Explainer @ntkme on GitHub">Sponsor</a>
+<a class="github-button" href="https://drive.google.com/open?id=1Jpiilh3af5drumnxuNi1sb8GyIvJIGVH" data-icon="octicon-heart" aria-label="Explainer">Explainer</a>
 
 
 # When is it safe to drive in the UK?
