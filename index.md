@@ -402,7 +402,11 @@ Lastly you could also just consider going on really slow or really fast?
 
 Looking to the different aspects of these stats it is safe to conclude that London is a city with a lot of accidents. Some streets are safer than others and if you are a newbie to the traffic - avoid the clusters ...
 
-# Drive safe
+Then what did we come to? Most accidents happens when going to some work related things. So theee heatmap at the top showed us that the most accidents happens during rush hours. It is also happening at specific clusters so to go safest? Don't go in rush hours. That should limit the highest risks. Howeever it is called rush hour for a reason - that is exactly when we start working/studying.
+
+
+
+#DriveSafe
 
 
 
