@@ -120,12 +120,249 @@ In britain by all regrestret car accidents in 2018, did you know that only 23.35
 
 If you experience troubles with the calculations then try our noteebook. (We have had a bit of some troubles with the calculation button on the homepage) 
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="1000"
-    height="500"
-    src="https://severin.edea.dk/SD/overevieew.png">
-</iframe>
+<html><head>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script type="application/vnd.jupyter.widget-state+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "72d86ce7c5514ddcb201df0e76958e17": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6849b65dd5674b82a9188221d2833d18": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "759912b6f5b144b7a19cbe24106c1372": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Age:",
+                "layout": "IPY_MODEL_72d86ce7c5514ddcb201df0e76958e17",
+                "max": 101,
+                "min": 15,
+                "style": "IPY_MODEL_6849b65dd5674b82a9188221d2833d18",
+                "value": 15
+            }
+        },
+        "d5185f2333df49b1bf08c7507c23949a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f7c78bb171e24785948abe6255a7e51e": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "e9d6fc307df3432dbc67cc28b557e664": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Male",
+                    "Female"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_d5185f2333df49b1bf08c7507c23949a",
+                "style": "IPY_MODEL_f7c78bb171e24785948abe6255a7e51e",
+                "tooltips": []
+            }
+        },
+        "182f53408fc341908916a687bfd94799": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "628c2b69ee744ecd881149c611c39d22": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "70e2148396dc45569388be42daccccbb": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Pedal cycle",
+                    "Motorcycle",
+                    "Taxi",
+                    "Car",
+                    "Bus",
+                    "Ridden horse",
+                    "Goods transporter",
+                    "Mobility scooter"
+                ],
+                "button_style": "",
+                "description": "Transport type:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_182f53408fc341908916a687bfd94799",
+                "style": "IPY_MODEL_628c2b69ee744ecd881149c611c39d22",
+                "tooltips": []
+            }
+        },
+        "a1370e0179614efdad29f917cebf3e1e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b99b9f8115144a20a79a53f7355a8ed5": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "175065be1e574bccbd2a2dcd5d96a3e6": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Previous accident",
+                    "Road works",
+                    "Parked vehicle",
+                    "Bridge",
+                    "Bollard or refuge",
+                    "Open door of vehicle",
+                    "Center of roundabout",
+                    "Kerb",
+                    "Animal"
+                ],
+                "button_style": "",
+                "description": "Vehicle:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_a1370e0179614efdad29f917cebf3e1e",
+                "style": "IPY_MODEL_b99b9f8115144a20a79a53f7355a8ed5",
+                "tooltips": []
+            }
+        },
+        "b8d33587cfeb4ea59498fae7780b4398": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c5e7e489296e4bccb8f17df8cdb43ddd": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "bd306a0503894565a335bd9226106d5e": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Calculate",
+                "layout": "IPY_MODEL_b8d33587cfeb4ea59498fae7780b4398",
+                "style": "IPY_MODEL_c5e7e489296e4bccb8f17df8cdb43ddd"
+            }
+        },
+        "fc851e0225a647f9b849272312aecf20": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4ab4001e6ba44bae9033d6d3acef5cd4": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_fc851e0225a647f9b849272312aecf20"
+            }
+        }
+    }
+}
+</script>
+</head>
+<body>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "e9d6fc307df3432dbc67cc28b557e664"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "759912b6f5b144b7a19cbe24106c1372"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "70e2148396dc45569388be42daccccbb"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "175065be1e574bccbd2a2dcd5d96a3e6"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "bd306a0503894565a335bd9226106d5e"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "4ab4001e6ba44bae9033d6d3acef5cd4"
+}
+</script>
+
+</body>
+</html>
+
 
 
 So when do all this happen? If we conclude that women are better drivers (Oh this is a dangerous gender based one) the why do the accidents happen? Is it on the way to school, work, someething else?
