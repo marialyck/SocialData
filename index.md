@@ -365,8 +365,15 @@ If you experience troubles with the calculations then try our noteebook. (We hav
 </body>
 </html>
 
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body>
 
-
+<div class="content">
 So when do all this happen? If we conclude that women are better drivers (Oh this is a dangerous gender based one) the why do the accidents happen? Is it on the way to school, work, someething else?
 
 
@@ -398,4 +405,9 @@ Looking to the different aspects of these stats it is safe to conclude that Lond
 # Drive safe
 
 
+
+
+</div>
+
+</body>
 
